@@ -1,3 +1,67 @@
-profilepicture{
-  position: relative;
+/* HOME PAGE STYLING */
+#profilepicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  width: 250px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.intro{
+  width: 50%; /* Adjust the width as needed*/
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+}
+
+#aboutMeButton{
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+
+}
+
+.intro-p{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 50%; /* Adjust the width as needed*/
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+body#home{
+  background-color: #262829;
+  background-size: cover;
+  width:100vw;
+  min-height: 100vh;
+}
+
+body, #aboutMeButton{
+  font-family: IBM Plex Serif
+}
+
+#icons{
+  padding-top: 50px;
+  padding-bottom: 35px;
+  width: 80%; /* Adjust the width as needed*/
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+  font-size: 85px;
+}
+
+#containerImage{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px; 
+  padding-bottom: 40px;
+  height: 400px;
+  max-width: 100%;
+  /* image-rendering: pixelated; */
 }
