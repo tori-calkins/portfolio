@@ -8,10 +8,10 @@
 
     - have the learn more about me button take people to the pdf version of my resume ✅
 
-    - ask ilene if zoomedin profile pic is better or regular one
+    - ask ilene if zoomedin profile pic is better or regular one✅
 
     - have a form somewhere to send an email to get in contact w me 
 
-    - figure out how to get rid of the underline on my learn more about me button
+    - figure out how to get rid of the underline on my learn more about me button ✅
 
     - 
