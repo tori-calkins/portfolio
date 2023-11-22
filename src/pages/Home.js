@@ -29,7 +29,15 @@ const Home = () => {
                         </button>
                     </NavLink>
                 </div>
-                <img id="containerImage" src={tealwood} alt="teal wood slabs"/>
+                <div id="containerImage" >
+                    <img id="image-text" src={tealwood} alt="teal wood slabs"/>
+                    <h1 id="image-text">My Frontend Projects</h1>
+                        <Link to="/frontend">
+                            <button id="imageButton">
+                                View My Projects
+                            </button>
+                        </Link>
+                </div>
                 <div id="icons"> 
                     <FaLinkedin />
                     <TbBrandJavascript />
@@ -42,7 +50,15 @@ const Home = () => {
                     <IoLogoGithub />
                     <TbBrandVscode />
                 </div>
-                <img id="containerImage" src={tealwood} alt="teal wood slabs"/>
+                <div id="containerImage">
+                    <img id="image-text" src={tealwood} alt="teal wood slabs"/>
+                    <h1 id="image-text">My Full Stack Projects</h1>
+                        <Link to="/fullstackprojects">
+                            <button id="imageButton">
+                                View My Projects
+                            </button>
+                        </Link>
+                </div>
                 <div id="icons-2">
                     <NavLink to="https://www.linkedin.com/in/victoria-calkins-/" target="_blank">
                         <FaLinkedin id="icons-3"/>
