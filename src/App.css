@@ -86,6 +86,9 @@ body, #aboutMeButtonColor, #imageButton{
   text-align: center;
   z-index: 1;
 }
+.imageContainer{
+  border-radius: 30px;
+}
 #image-text{
   position: absolute;
   top: 50%;

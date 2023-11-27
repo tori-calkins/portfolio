@@ -30,7 +30,7 @@ const Home = () => {
                     </NavLink>
                 </div>
                 <div id="containerImage" >
-                    <img id="image-text" src={tealwood} alt="teal wood slabs"/>
+                    <img className="imageContainer" id="image-text" src={tealwood} alt="teal wood slabs"/>
                     <h1 id="image-text">My Frontend Projects</h1>
                         <Link to="/frontend">
                             <button id="imageButton">
@@ -51,7 +51,7 @@ const Home = () => {
                     <TbBrandVscode />
                 </div>
                 <div id="containerImage">
-                    <img id="image-text" src={tealwood} alt="teal wood slabs"/>
+                    <img className="imageContainer" id="image-text" src={tealwood} alt="teal wood slabs"/>
                     <h1 id="image-text">My Full Stack Projects</h1>
                         <Link to="/fullstackprojects">
                             <button id="imageButton">

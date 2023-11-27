@@ -14,4 +14,4 @@
 
     - figure out how to get rid of the underline on my learn more about me button ✅
 
-    - round the corners of the teal container images and make the container images bigger
+    - round the corners of the teal container images and make the container images bigger✅
