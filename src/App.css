@@ -37,7 +37,6 @@
   font-size: 20px;
 }
 
-
 body#home{
   background-color: #262829;
   background-size: cover;
@@ -109,4 +108,18 @@ body, #aboutMeButtonColor, #imageButton{
   transform: translate(-50%, -50%);
   color: black;
   z-index: -1;
+}
+
+/* Frontend and Full Stack page styling */
+#title{
+  text-align: center;
+  color:white;
+}
+#projectCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  overflow: hidden;
 }
