@@ -6,7 +6,7 @@
   padding-top: 45px;
   padding-bottom: 40px;
   width: 250px;
-  height: 270px;
+  height: 360px;
   border-radius: 50%;
 }
 
@@ -30,6 +30,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 30px;
 }
 #aboutMeButtonColor{
   text-decoration: none;
@@ -42,9 +43,6 @@ body#home{
   background-size: cover;
   width:100vw;
   min-height: 100vh;
-}
-
-body, #aboutMeButtonColor, #imageButton{
   font-family: IBM Plex Serif
 }
 
@@ -119,7 +117,7 @@ body, #aboutMeButtonColor, #imageButton{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-top: 30px;
   overflow: hidden;
 }

@@ -1,37 +1,45 @@
 import React from "react";
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactstrap'
+import RatieMate from "../assets/ratiemate.png"
+import { NavLink } from "react-router-dom"
 
 const FullStackProjects = () => {
     return(
         <>
-         <h1>FrontEnd Projects </h1>
-         <Card
-             style={{
-                 width: '18rem'
-             }}
-         >
-             <img
-                 alt="Sample"
-                 src="https://picsum.photos/300/200"
-             />
-         <CardBody>
-             <CardTitle tag="h5">
-             Card title
-             </CardTitle>
-             <CardSubtitle
-             className="mb-2 text-muted"
-             tag="h6"
-             >
-             Card subtitle
-             </CardSubtitle>
-             <CardText>
-             Some quick example text to build on the card title and make up the bulk of the card‘s content.
-             </CardText>
-             <Button>
-             Button
-             </Button>
-         </CardBody>
-         </Card>
+        <body id="home">
+            <h1 id="title">FrontEnd Projects </h1>
+            <div id="projectCards">
+            <Card
+                style={{
+                    width: '18rem'
+                }}
+            >
+                <img
+                    alt="RatieMate signin and signup page"
+                    src={RatieMate}
+                />
+                <CardBody>
+                    <CardTitle tag="h5">
+                    RatieMate
+                    </CardTitle>
+                    <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                    >
+                    Languages: React.js & Ruby on Rails
+                    </CardSubtitle>
+                    <CardText>
+                    RatieMate is your go-to movie searching app, enabling easy exploration and rating of your favorite films. Sign in to curate your personalized list of beloved movies, allowing others to see your ratings and recommendations. Efficiently discover new must-watch movies while effortlessly keeping track of ones you've seen and loved. With RatieMate, finding and organizing your cinematic preferences has never been more enjoyable and accessible.
+                    </CardText>
+                    <NavLink to="https://frontend-ratiemate.onrender.com/" target="_blank">
+                        <Button >
+                        Explore More Here!
+                        </Button>
+                    </NavLink>
+                </CardBody>
+            </Card>
+            </div>
+        </body>
         </> 
     )
 }
