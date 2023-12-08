@@ -17,3 +17,7 @@
     - round the corners of the teal container images and make the container images bigger✅
 
     - create a header/button to go back to home page from component pages
+
+    - create an about me page
+
+    

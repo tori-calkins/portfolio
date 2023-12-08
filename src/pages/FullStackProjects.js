@@ -2,10 +2,12 @@ import React from "react";
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactstrap'
 import RatieMate from "../assets/ratiemate.png"
 import { NavLink } from "react-router-dom"
+import Header from "../pages/Header"
 
 const FullStackProjects = () => {
     return(
         <>
+        <Header/>
         <body id="home">
             <h1 id="title">FrontEnd Projects </h1>
             <div id="projectCards">
