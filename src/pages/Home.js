@@ -11,7 +11,8 @@ import { FaSlack } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { TbBrandVscode } from "react-icons/tb";
 import { PiFileHtmlLight } from "react-icons/pi";
-import { NavLink, Link } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom";
+
 
 
 const Home = () => {
@@ -66,6 +67,11 @@ const Home = () => {
                     <NavLink to="https://github.com/tori-calkins" target="_blank">
                         <IoLogoGithub id="icons-4"/>
                     </NavLink>
+                </div>
+                <div>
+                    <button
+                        onclick="topFunction()" id="myBtn" title="Go to top">⬆️
+                    </button>
                 </div>
             </body>
         </>

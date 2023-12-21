@@ -3,12 +3,12 @@ import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reacts
 import tictactoe from '../assets/TicTacToe.ss.png'
 import piglatin from '../assets/PigLatin.ss.png'
 import { NavLink } from "react-router-dom"
-import Header from "../pages/Header"
+import Header1 from "../pages/Header1"
 
 const Frontend = () => {
     return(
        <>
-       <Header/>
+       <Header1/>
        <body id="home">
         <h1 id="title">Front End Projects </h1>
         <div id="projectCards">
