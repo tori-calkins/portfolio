@@ -1,6 +1,6 @@
 ## design goals
 
-    - have an arrow button at the right corner to scroll up and down whole home page and maybe each page
+    - have an arrow button at the right corner to scroll up and down whole home page and maybe each page✅
 
     - change the font to IBM Plex Serif ✅
 
@@ -16,7 +16,7 @@
 
     - round the corners of the teal container images and make the container images bigger✅
 
-    - create a header/button to go back to home page from component pages
+    - create a header/button to go back to home page from component pages ✅
 
     - create an about me page
 
