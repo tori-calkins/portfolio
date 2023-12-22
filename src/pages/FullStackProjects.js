@@ -3,6 +3,7 @@ import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reacts
 import RatieMate from "../assets/ratiemate.png"
 import { NavLink } from "react-router-dom"
 import Header2 from "../pages/Header2"
+import BackToTopButton from '../components/BackToTopButton.js';
 
 const FullStackProjects = () => {
     return(
@@ -41,6 +42,7 @@ const FullStackProjects = () => {
                 </CardBody>
             </Card>
             </div>
+        <BackToTopButton />
         </body>
         </> 
     )

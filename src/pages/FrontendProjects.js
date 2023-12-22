@@ -4,6 +4,7 @@ import tictactoe from '../assets/TicTacToe.ss.png'
 import piglatin from '../assets/PigLatin.ss.png'
 import { NavLink } from "react-router-dom"
 import Header1 from "../pages/Header1"
+// import BackToTopButton from '../components/BackToTopButton.js';
 
 const Frontend = () => {
     return(
@@ -72,6 +73,7 @@ const Frontend = () => {
             </Card>
         </div>
        </body>
+       {/* <BackToTopButton /> */}
        </> 
     )
 }

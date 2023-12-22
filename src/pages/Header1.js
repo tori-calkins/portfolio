@@ -10,7 +10,7 @@ const Header1 = (args) => {
         <>
         <div className="Header1">
             <Navbar {...args}>
-                <NavbarBrand href="/">Tori Calkins</NavbarBrand>
+                <NavbarBrand id="cornerName" href="/">Tori Calkins</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav navbar>

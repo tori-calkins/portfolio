@@ -68,11 +68,7 @@ const Home = () => {
                         <IoLogoGithub id="icons-4"/>
                     </NavLink>
                 </div>
-                <div>
-                    <button
-                        onclick="topFunction()" id="myBtn" title="Go to top">⬆️
-                    </button>
-                </div>
+
             </body>
         </>
     )

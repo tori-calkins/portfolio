@@ -11,7 +11,7 @@
 }
 
 .intro{
-  width: 50%; /* Adjust the width as needed*/
+  width: 50%; 
   margin: 0 auto;
   text-align: center;
   color: aliceblue;
@@ -19,7 +19,7 @@
 .intro-p{
   padding-top: 30px;
   padding-bottom: 40px;
-  width: 50%; /* Adjust the width as needed*/
+  width: 50%; 
   margin: 0 auto;
   text-align: center;
   color: aliceblue;
@@ -43,7 +43,14 @@ body#home{
   background-size: cover;
   width:100vw;
   min-height: 100vh;
-  font-family: IBM Plex Serif
+  font-family: IBM Plex Serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #262829; 
+  font-family: IBM Plex Serif; 
 }
 
 #icons{
@@ -114,10 +121,11 @@ body#home{
   color:white;
   padding-top: 100px;
 }
-#projectCards{
+#projectCards {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Add space between items */
   margin-bottom: 30px;
   margin-top: 30px;
   overflow: hidden;
@@ -129,6 +137,13 @@ body#home{
   position: fixed;
   width: 100%;
   padding: 10px;
+  z-index: 1000;
+  font-family: IBM Plex Serif;
+  font-size: 20px; 
 }
 
-
+#cornerName{
+  font-family: IBM Plex Serif;
+  font-size: 26px; 
+  font-weight: bold;
+}
