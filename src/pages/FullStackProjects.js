@@ -10,7 +10,7 @@ const FullStackProjects = () => {
         <>
         <Header2/>
         <body id="home">
-            <h1 id="title">FrontEnd Projects </h1>
+            <h1 id="title">Full Stack Projects </h1>
             <div id="projectCards">
             <Card
                 style={{

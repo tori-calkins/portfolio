@@ -18,6 +18,11 @@
 
     - create a header/button to go back to home page from component pages ✅
 
-    - create an about me page
+    - create an about me page 
+
+    - figure out where to put the contact me form and best way to go about it
+
+    - 
 
     
+

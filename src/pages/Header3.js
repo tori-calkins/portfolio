@@ -8,7 +8,7 @@ const Header1 = (args) => {
 
     return (
         <>
-        <div className="Header1">
+        <div className="Header3">
             <Navbar {...args}>
                 <NavbarBrand id="cornerName" href="/">Tori Calkins</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
@@ -16,6 +16,9 @@ const Header1 = (args) => {
                     <Nav navbar>
                         <NavItem>
                             <NavLink href="/">Home</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/frontend">Front End Projects</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/fullstackprojects">Full Stack Projects</NavLink>
@@ -30,9 +33,6 @@ const Header1 = (args) => {
                                 LinkedIn
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink href="/aboutme">About Me</NavLink>
-                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
@@ -43,8 +43,3 @@ const Header1 = (args) => {
 
 export default Header1
 
-{/* <button id="goBackButton">
-<NavLink to="/">
-    Go Back
-</NavLink>
-</button> */}

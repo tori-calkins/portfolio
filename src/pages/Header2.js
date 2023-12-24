@@ -30,6 +30,9 @@ const Header2 = (args) => {
                                 LinkedIn
                             </NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink href="/aboutme">About Me</NavLink>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>

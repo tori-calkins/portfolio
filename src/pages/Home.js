@@ -24,11 +24,11 @@ const Home = () => {
                 <h1 className="intro">Hi, I'm Tori!</h1>
                 <p className="intro-p" >I'm a junior full-stack developer based in San Diego, California. I've worked on web development projects using HTML, CSS, JavaScript, React.js, Ruby, and Ruby on Rails, and my passion for creative problem-solving drives my constant skill growth.</p>
                 <div id="aboutMeButton">
-                    <NavLink to="https://docs.google.com/document/d/1fNNWa324GOWl8CfxzxyMXu4IaLdDclG32TQjGIxsb0w/edit" target="_blank">
+                    <Link to="/aboutme">
                         <button id="aboutMeButtonColor">
                             Learn More About Me
                         </button>
-                    </NavLink>
+                    </Link>
                 </div>
                 <div id="containerImage" >
                     <img className="imageContainer" id="image-text" src={tealwood} alt="teal wood slabs"/>
