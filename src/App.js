@@ -6,6 +6,8 @@ import AboutMe from './pages/AboutMe'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from "./components/Footer"
+import ContactMeForm from './components/ContactMeForm'
 import BackToTopButton from './components/BackToTopButton.js';
 
 const App = () => {
@@ -16,8 +18,10 @@ const App = () => {
       <Route path="/frontend" element={<Frontend/>}/>
       <Route path="/fullstackprojects" element={<FullStackProjects/>}/>
       <Route path="/aboutme" element={<AboutMe/>}/>
+      <Route path="/contactmeform" element={<ContactMeForm/>}/>
     </Routes>
     <BackToTopButton />
+    <Footer />
     </>
   )
 }

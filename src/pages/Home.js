@@ -11,7 +11,7 @@ import { FaSlack } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { TbBrandVscode } from "react-icons/tb";
 import { PiFileHtmlLight } from "react-icons/pi";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -60,15 +60,6 @@ const Home = () => {
                             </button>
                         </Link>
                 </div>
-                <div id="icons-2">
-                    <NavLink to="https://www.linkedin.com/in/victoria-calkins-/" target="_blank">
-                        <FaLinkedin id="icons-3"/>
-                    </NavLink>
-                    <NavLink to="https://github.com/tori-calkins" target="_blank">
-                        <IoLogoGithub id="icons-4"/>
-                    </NavLink>
-                </div>
-
             </body>
         </>
     )

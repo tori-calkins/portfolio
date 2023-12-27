@@ -1,6 +1,5 @@
 import React from "react";
 import Header3 from "../pages/Header3"
-import BackToTopButton from '../components/BackToTopButton.js'
 import profilepic from '../assets/profilepicupdated.jpg'
 import ContactMeForm from '../components/ContactMeForm.js'
 
@@ -26,11 +25,9 @@ const AboutMe = () => {
             <br></br>
             Let's connect, collaborate, and code our way to remarkable innovations!</p>
         </body>
-        <BackToTopButton />
         <ContactMeForm />
         </>
     )
 }
 
 export default AboutMe
-{/* <NavLink to="https://docs.google.com/document/d/1fNNWa324GOWl8CfxzxyMXu4IaLdDclG32TQjGIxsb0w/edit" target="_blank"> */}

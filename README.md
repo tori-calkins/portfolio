@@ -22,9 +22,12 @@
     
     - find 2 other photos to put on about me page
 
-    - figure out where to put the contact me form and best way to go about it
+    - figure out where to put the contact me form and best way to go about it ✅
 
-    - 
+    - get contact me form to send emails to me (not sure how to do that because i cant use an api or anything so need to find an alternative)✅
+    
+    - get contact me form to be pretty and make sure it works
 
+    - get the scroll up button to go in front of the footer when scrolled all the way down
     
 
