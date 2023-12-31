@@ -47,14 +47,16 @@ const ContactForm = () => {
   };
 
   return (
-    <body id="home">
+    <body id="home" className="contactformContainer">
       <Header3 />
-      <h1>Contact Me</h1>
+      <h1 id="title" >Contact Me</h1>
       <form id='form' onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Email Address" />
-        <textarea name="message" placeholder="Message" />
-        <button type="submit">Send</button>
+        <input className="inputField" type="text" name="name" placeholder="Name" />
+        <input className="inputField" type="email" name="email" placeholder="Email Address" />
+        <input className="inputField" type="text" name="subject" placeholder="Subject" />
+        <textarea className="inputField" name="message" placeholder="Message" />
+        <br></br>
+        <button className="submitButton" type="submit">Send</button>
       </form>
     </body>
     );
