@@ -2,7 +2,8 @@ import React from "react";
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactstrap'
 import RatieMate from "../assets/ratiemate.png"
 import { NavLink } from "react-router-dom"
-import Header2 from "../pages/Header2"
+import Header2 from "../components/Header2"
+import Footer from "../components/Footer"
 
 const FullStackProjects = () => {
     return(
@@ -41,6 +42,7 @@ const FullStackProjects = () => {
                 </CardBody>
             </Card>
             </div>
+            <Footer />
         </body>
         </> 
     )

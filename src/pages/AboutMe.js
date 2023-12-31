@@ -1,7 +1,7 @@
 import React from "react";
-import Header3 from "../pages/Header3"
+import Header3 from "../components/Header3"
 import profilepic from '../assets/profilepicupdated.jpg'
-import ContactMeForm from '../components/ContactMeForm.js'
+import Footer2 from "../components/Footer2"
 
 const AboutMe = () => {
     return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
             <br></br>
             Let's connect, collaborate, and code our way to remarkable innovations!</p>
         </body>
-        <ContactMeForm />
+        <Footer2/>
         </>
     )
 }

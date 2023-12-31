@@ -18,7 +18,7 @@
 
     - create a header/button to go back to home page from component pages ✅
 
-    - create an about me page 
+    - create an about me page ✅
     
     - find 2 other photos to put on about me page
 
@@ -28,6 +28,7 @@
     
     - get contact me form to be pretty and make sure it works
 
-    - get the scroll up button to go in front of the footer when scrolled all the way down
+    - get the scroll up button to go in front of the footer when scrolled all the way down ✅ 
+        ** Did this by just manually putting in the sperate footers on each page instead of keeping it in the App.js 
     
 

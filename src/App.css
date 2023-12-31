@@ -188,18 +188,6 @@ body, html {
   text-align: center;
   padding: 50px;
 }
-
-/* .title {
-  font-size: 32px;
-  margin-bottom: 20px;
-} */
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .inputField {
   width: 100%;
   padding: 10px;
@@ -207,8 +195,9 @@ body, html {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
 .submitButton {
+  display: block;
+  margin: 0 auto;
   padding: 10px 20px;
   background-color: #1bc4ca;
   color: white;
@@ -217,7 +206,6 @@ body, html {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .submitButton:hover {
   background-color: #159494;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import profilepic from '../assets/profilepicupdated.jpg'
+import Footer from "../components/Footer"
 import tealwood from '../assets/teal_wood_background.jpeg'
 import { FaLinkedin } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -61,6 +62,7 @@ const Home = () => {
                         </Link>
                 </div>
             </body>
+            <Footer />
         </>
     )
 }

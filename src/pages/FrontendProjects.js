@@ -3,7 +3,8 @@ import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reacts
 import tictactoe from '../assets/TicTacToe.ss.png'
 import piglatin from '../assets/PigLatin.ss.png'
 import { NavLink } from "react-router-dom"
-import Header1 from "../pages/Header1"
+import Header1 from "../components/Header1"
+import Footer from "../components/Footer"
 
 const Frontend = () => {
     return(
@@ -71,6 +72,7 @@ const Frontend = () => {
                 </CardBody>
             </Card>
         </div>
+        <Footer />
        </body>
        </> 
     )
