@@ -9,10 +9,10 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/victoria-calkins-" target="_blank">
           <FaLinkedin id="icons-3" />
         </a>
+        <a id="hyperlinks" href="/contactmeform">Contact Me</a>
         <a href="https://github.com/tori-calkins" target="_blank">
           <IoLogoGithub id="icons-4" />
         </a>
-        <a href="/contactmeform">Contact Me</a>
       </div>
     </div>
   );

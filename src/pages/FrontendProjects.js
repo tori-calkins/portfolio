@@ -15,12 +15,12 @@ const Frontend = () => {
         <div id="projectCards">
             <Card
                 style={{
-                    width: '18rem'
+                    width: '400px', height: '580px'
                 }}
             >
                 <img
                     alt="Screenshot of Tic Tac Toe game"
-                    src={tictactoe}
+                    src={tictactoe} style={{ width: '100%', height: '60%' }}
                 />
                 <CardBody>
                     <CardTitle tag="h5">
@@ -30,9 +30,9 @@ const Frontend = () => {
                     className="mb-2 text-muted"
                     tag="h6"
                     >
-                    Language: React.js
+                    Tech Stack: React.js, HTML, CSS, Yarn, Render
                     </CardSubtitle>
-                    <CardText>
+                    <CardText style={{ fontSize: '14px' }}>
                     Tic-tac-toe is a simple, two-player game played on a 3x3 grid. Players take turns marking either an "X" or an "O" in empty squares. The goal is to get three of your marks in a row, either horizontally, vertically, or diagonally, before your opponent does.
                     </CardText>
                     <NavLink to="https://tic-tac-toe-blnf.onrender.com/" target="_blank">
@@ -44,12 +44,12 @@ const Frontend = () => {
                 </Card>
             <Card
                 style={{
-                    width: '18rem'
+                    width: '400px', height: '550px'
                 }}
             >
                 <img
                     alt="Screenshot of Pig Latin App"
-                    src={piglatin}
+                    src={piglatin} style={{ width: '100%', height: '50%' }}
                 />
                 <CardBody>
                     <CardTitle tag="h5">
@@ -59,9 +59,9 @@ const Frontend = () => {
                     className="mb-2 text-muted"
                     tag="h6"
                     >
-                    Language: React.js
+                    Tech Stack: React.js, HTML, CSS, Yarn, Render
                     </CardSubtitle>
-                    <CardText>       
+                    <CardText style={{ fontSize: '14px' }}>       
                         Pig Latin is a language game where words are altered according to a set of rules. In Pig Latin, to translate a word into Pig Latin, you typically move the first consonant or consonant cluster of a word to the end of the word and add "ay." If a word starts with a vowel, you simply add "way" or "ay" at the end. 
                     </CardText>
                     <NavLink to="https://pig-latin-crying-pigs.onrender.com/" target="_blank">

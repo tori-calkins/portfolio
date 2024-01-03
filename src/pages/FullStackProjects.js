@@ -14,14 +14,14 @@ const FullStackProjects = () => {
             <div id="projectCards">
             <Card
                 style={{
-                    width: '18rem'
+                    width: '400px', height: '600px'
                 }}
             >
                 <img
                     alt="RatieMate signin and signup page"
                     src={RatieMate}
                 />
-                <CardBody>
+                <CardBody id="card">
                     <CardTitle tag="h5">
                     RatieMate
                     </CardTitle>
@@ -29,9 +29,9 @@ const FullStackProjects = () => {
                     className="mb-2 text-muted"
                     tag="h6"
                     >
-                    Languages: React.js & Ruby on Rails
+                    Tech Stack: React.js & Ruby on Rails, CSS, HTML, Yarn, Render
                     </CardSubtitle>
-                    <CardText>
+                    <CardText style={{ fontSize: '14px' }}>
                     RatieMate is your go-to movie searching app, enabling easy exploration and rating of your favorite films. Sign in to curate your personalized list of beloved movies, allowing others to see your ratings and recommendations. Efficiently discover new must-watch movies while effortlessly keeping track of ones you've seen and loved. With RatieMate, finding and organizing your cinematic preferences has never been more enjoyable and accessible.
                     </CardText>
                     <NavLink to="https://frontend-ratiemate.onrender.com/" target="_blank">
